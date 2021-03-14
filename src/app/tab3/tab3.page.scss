@@ -1,0 +1,40 @@
+ion-header{
+    text-align:center;
+}
+.card {
+    margin: 0 auto;
+    background-color: #23aef3;
+    .header {
+        height: 200px;
+        
+       
+        .avatar {
+            width: 160px;
+            height: 160px;
+            position: relative;
+            margin: 0 auto;
+
+            img {
+                display: block;
+                position: absolute;
+                bottom: calc(-1*(80px + 4px));
+                background-color: rgb(243, 243, 243);
+            }
+            
+        }
+    }
+}
+.card-body {
+    
+    background-color: #3671f0;
+    padding: 30px;
+    height: calc(100vh – (200px + 56px));
+    overflow: hidden;
+    text-align: center;
+
+    .user-meta {
+        padding-top: 40px;
+
+        
+    }
+}
